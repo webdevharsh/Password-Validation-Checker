@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin:0;  
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#6495ED;  
+font-family: 'poppins', sans-serif;
+}
+
+.container{
+padding:25px;  
+width:350px;
+background:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:7px;
+}
+
+.container .input-box{
+height:50px; 
+width:100%;
+border-radius:5px;
+display:flex;
+align-items:center;
+border:1px solid grey;
+}
+
+.container .input-box input{
+all:unset; 
+height:50px;
+width:225px;
+padding-left:15px;
+}
+
+.container .input-box i{
+position:absolute;  
+right:45px;
+}
+
+.container .input-box .fa-eye-slash{
+display:none;       
+}
+
+.container .validation-box{
+margin-top:20px;       
+}
+
+.container .validation-box .lab1{
+font-size:16px;        
+}
+
+.container .validation-box div{
+height:35px;  
+width:100%;
+}
+
+.container .validation-box div.valid .icon{
+background:#6495ED;        
+}
+
+.container .validation-box div.valid span{
+color:grey;
+}
+
+.container .validation-box .password-length{
+margin-top:15px;  
+}
+
+.container .validation-box div .icon{
+height:20px; 
+width:20px;
+border-radius:100%;
+background:grey;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:11px;
+margin-top:7px;
+}
+
+.container .validation-box div span{
+margin-left:30px;   
+position:relative;
+top:-20px;
+}
