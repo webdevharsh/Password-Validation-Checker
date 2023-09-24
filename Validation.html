@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+        <link rel="stylesheet" href="Validation.css"> 
+        <title></title>
+</head>
+
+<body>
+<div class="container">
+  <div class="input-box">
+     <input type="password" name="" id="" placeholder="Enter password">
+     <i class="fa-regular fa-eye" onclick="passToggle()"></i>
+     <i class="fa-regular fa-eye-slash" onclick="passToggle()"></i>
+  </div> 
+ <div class="validation-box">
+         <span class="lab1">Password should be</span>
+         <div class="password-length">
+                 <div class="icon">
+                         <i class="fa-sharp fa-solid fa-check"></i>
+                 </div>
+                 <span>Atleast 8 characters long</span>
+         </div>
+
+         <div class="lowercase">
+                 <div class="icon">
+                         <i class="fa-sharp fa-solid fa-check"></i>
+                 </div>
+                 <span>Atleast one lowercase</span>
+         </div>
+
+         <div class="uppercase">
+                 <div class="icon">
+                         <i class="fa-sharp fa-solid fa-check"></i>
+                 </div>
+                 <span>Atleast one uppercase</span>
+         </div>
+
+         <div class="number">
+                 <div class="icon">
+                         <i class="fa-sharp fa-solid fa-check"></i>
+                 </div>
+                 <span>Atleast one number</span>
+         </div>
+
+         <div class="special-character">
+                 <div class="icon">
+                         <i class="fa-sharp fa-solid fa-check"></i>
+                 </div>
+                 <span>Atleast one special character</span>
+         </div>
+</div>
+<script src="Validation.js"></script>  
+</body>
+
+</html>
+
